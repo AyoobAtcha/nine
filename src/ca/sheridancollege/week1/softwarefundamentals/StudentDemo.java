@@ -15,9 +15,11 @@ package ca.sheridancollege.week1.softwarefundamentals;
 public class StudentDemo {
 
     
+    
 
     private String name;
     private int ID;
+    private int MaxCourses;
 
     //constructor
     public StudentDemo(String givenName)
@@ -27,6 +29,21 @@ public class StudentDemo {
     /**
      * @return the ID
      */
+    
+    /**
+     * @return the MaxCourses
+     */
+    public int getMaxCourses() {
+        return MaxCourses;
+    }
+
+    /**
+     * @param givenMaxCourses the MaxCourses to set
+     */
+    public void setMaxCourses(int givenMaxCourses) {
+       MaxCourses = givenMaxCourses;
+    }
+
     public int getID() {
         return ID;
     }
